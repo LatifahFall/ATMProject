@@ -4,4 +4,6 @@ Add MySQL Configuration(password,username) in src/main/java/packagee/DatatabaseM
 
 Run the file src/main/java/HelloApplication.java
 
+Tests are in src/test/java/packagee
+
 HAVE A PLEASANT DAY!!
