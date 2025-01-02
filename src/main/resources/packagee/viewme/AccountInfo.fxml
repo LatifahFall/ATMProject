@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="backgroundColorGradient" stylesheets="@../css/background.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packagee.AccountInfoController">
+    <fx:include source="../view/BankHeader.fxml" />
+    <Label alignment="CENTER" layoutX="190.0" layoutY="101.0" prefHeight="31.0" prefWidth="242.0" styleClass="label_Text" stylesheets="@../css/Fonts.css" text="Account Information" />
+
+    <VBox layoutX="61.0" layoutY="151.0" prefWidth="500.0" spacing="20.0">
+        <Label fx:id="nameLabel" styleClass="label_Text" stylesheets="@../css/Fonts.css" text="Account Holder:" />
+        <Label fx:id="idLabel" styleClass="label_Text" stylesheets="@../css/Fonts.css" text="Account Number:" />
+        <Label fx:id="balanceLabel" styleClass="label_Text" stylesheets="@../css/Fonts.css" text="Balance:" />
+        <Label fx:id="phoneLabel" styleClass="label_Text" stylesheets="@../css/Fonts.css" text="Phone:" />
+        <Label fx:id="emailLabel" styleClass="label_Text" stylesheets="@../css/Fonts.css" text="Mail:" />
+    </VBox>
+    <Button fx:id="Cancel" layoutX="448.0" layoutY="336.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="144.0" text="Exit" onAction="#handleCancelButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+        <styleClass>
+            <String fx:value="buttonExit" />
+            <String fx:value="label_Text" />
+        </styleClass>
+    </Button>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="backgroundColorGradient" stylesheets="@../css/background.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packagee.CheckBalanceController">
+    <fx:include source="../view/BankHeader.fxml" />
+    <Label layoutX="222.0" layoutY="34.0" styleClass="label_Text_Header" stylesheets="@../css/Fonts.css" text="Check Balance" />
+    <Button fx:id="Cancel" layoutX="216.0" layoutY="351.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="191.0" text="Cancel" onAction="#handleCancelButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+        <styleClass>
+            <String fx:value="buttonExit" />
+            <String fx:value="label_Text" />
+        </styleClass></Button>
+    <Label layoutX="191.0" layoutY="169.0" styleClass="label_Text" stylesheets="@../css/Fonts.css" text="Your Current Balance:" />
+    <Label fx:id="balanceLabel" layoutX="271.0" layoutY="210.0" stylesheets="@../css/Fonts.css" text="000 DHS">
+        <styleClass>
+            <String fx:value="label_Buttons_Numbers" />
+            <String fx:value="label_Numbers" />
+        </styleClass>
+    </Label>
+
+
+</AnchorPane>

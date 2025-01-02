@@ -1,0 +1,46 @@
+.button{
+    -fx-background-color: #c2c5fb;
+    -fx-background-radius:10;
+}
+.button:hover
+{
+    -fx-background-color:#6e67e1 ;
+    -fx-background-radius:10 ;
+}
+.button:pressed
+{
+    -fx-background-color:#5a52e2 ;
+    -fx-background-radius:10 ;
+}
+.buttonOption1{
+    -fx-background-color: #c1c2e1;
+    -fx-background-radius: 30 0 0 30;
+}
+.buttonOption2{
+    -fx-background-color: #c1c2e1;
+    -fx-background-radius: 0 30 30 0;
+}
+.buttonOption1:hover
+{
+    -fx-background-color:#6e67e1 ;
+    -fx-background-radius:10 ;
+}
+.buttonOption1:pressed
+{
+    -fx-background-color:#5a52e2 ;
+    -fx-background-radius:10 ;
+}
+.buttonOption2:hover
+{
+    -fx-background-color:#6e67e1 ;
+    -fx-background-radius:10 ;
+}
+.buttonOption2:pressed
+{
+    -fx-background-color:#5a52e2 ;
+    -fx-background-radius:10 ;
+}
+.buttonExit{
+   -fx-background-color: #1a0070;
+    -fx-background-radius:5 ;
+}

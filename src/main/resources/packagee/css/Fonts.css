@@ -1,0 +1,31 @@
+.label_Buttons {
+    -fx-text-fill: #09026b;
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 15px;
+}
+.label_Text {
+    -fx-text-fill: #d7def5;
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 26px;
+}
+.label_Buttons_Numbers {
+    -fx-text-fill: #09026b;
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 20px;
+}
+.label_Text_Header {
+    -fx-text-fill: #d7def5;
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 30px;
+}
+.label_Numbers {
+    -fx-text-fill: #d7def5;
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 20px;
+    -fx-font-weight: 700;
+}
+.label_Text_Dark {
+    -fx-text-fill: #1a0070;
+    -fx-font-family: "Bell MT";
+    -fx-font-size: 26px;
+}

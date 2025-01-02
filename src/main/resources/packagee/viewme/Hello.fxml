@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="backgroundImage" stylesheets="@../css/background.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packagee.HelloController">
+    <fx:include source="../view/BankHeader.fxml" />
+    <Button fx:id="LoginForm" layoutX="74.0" layoutY="200.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="130.0" styleClass="label_Buttons" text="Login" onAction="#handleLoginFormButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />²
+        </stylesheets>
+    </Button>
+    <Button fx:id="CardlessWithdrawal" layoutX="406.0" layoutY="200.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="130.0" styleClass="label_Buttons" text="Cardless Withdrawal" onAction="#handleCardlessWithdrawalButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+    </Button>
+    <AnchorPane layoutY="348.0" prefHeight="52.0" prefWidth="600.0" styleClass="backgroundClair" stylesheets="@../css/background.css">
+        <children>
+            <Label layoutX="23.0" layoutY="11.0" prefHeight="29.0" prefWidth="554.0" styleClass="label_Text_Dark" stylesheets="@../css/Fonts.css" text="Need Help ? Contact Support in XX-XXXXXXXX" />
+        </children>
+    </AnchorPane>
+
+</AnchorPane>

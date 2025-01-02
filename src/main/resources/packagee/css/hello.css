@@ -1,0 +1,24 @@
+.backgroundColor {
+    -fx-background-image: url('bg.jpg');
+    -fx-background-size:cover ;
+}
+.button{
+    -fx-background-color: #c2c5fb;
+    -fx-background-radius:10;
+}
+.button:hover
+{
+    -fx-background-color:#6e67e1 ;
+    -fx-background-radius:10 ;
+}
+.button:pressed
+{
+    -fx-background-color:#5a52e2 ;
+    -fx-background-radius:10 ;
+}
+.backgroundColor2{
+    -fx-background-color: #03064b;
+}
+.button2{
+    -fx-background-color: #c2c5fb;
+}

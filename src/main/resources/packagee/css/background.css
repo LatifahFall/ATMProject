@@ -1,0 +1,10 @@
+.backgroundColorGradient {
+    -fx-background-color: linear-gradient(#020839, #5053a8);
+}
+.backgroundImage {
+    -fx-background-image: url('../img/bg.jpg');
+    -fx-background-size:cover ;
+}
+.backgroundClair{
+    -fx-background-color: linear-gradient(to right,#d2d9f8, #8284e8);
+}

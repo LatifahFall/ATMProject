@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="backgroundColorGradient" stylesheets="@../css/background.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packagee.TransferController" >
+
+    <Button fx:id="M1000" layoutX="498.0" layoutY="63.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="144.0" text="1000 DHS"  onAction="#handleAmountButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+        <styleClass>
+            <String fx:value="buttonOption1" />
+            <String fx:value="label_Buttons_Numbers" />
+        </styleClass></Button>
+    <Button fx:id="M200" layoutY="177.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="129.0" text="200 DHS"  onAction="#handleAmountButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+        <styleClass>
+            <String fx:value="buttonOption2" />
+            <String fx:value="label_Buttons_Numbers" />
+        </styleClass></Button>
+    <Button fx:id="M1500" layoutX="498.0" layoutY="177.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="144.0" text="1500 DHS"  onAction="#handleAmountButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+        <styleClass>
+            <String fx:value="buttonOption1" />
+            <String fx:value="label_Buttons_Numbers" />
+        </styleClass></Button>
+    <Button fx:id="M500" layoutY="289.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="129.0" text="500 DHS" onAction="#handleAmountButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+        <styleClass>
+            <String fx:value="buttonOption2" />
+            <String fx:value="label_Buttons_Numbers" />
+        </styleClass></Button>
+    <Button fx:id="M2000" layoutX="498.0" layoutY="289.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="144.0" text="2000 DHS" onAction="#handleAmountButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+        <styleClass>
+            <String fx:value="buttonOption1" />
+            <String fx:value="label_Buttons_Numbers" />
+        </styleClass></Button>
+    <Button fx:id="M100" layoutY="63.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="129.0" text="100 DHS" onAction="#handleAmountButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+        <styleClass>
+            <String fx:value="buttonOption2" />
+            <String fx:value="label_Buttons_Numbers" />
+        </styleClass>
+    </Button>
+    <Button fx:id="Cancel" layoutX="251.0" layoutY="355.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="144.0" text="Cancel" onAction="#handleCancelButtonClick">
+        <stylesheets>
+            <URL value="@../css/buttons.css" />
+            <URL value="@../css/Fonts.css" />
+        </stylesheets>
+        <styleClass>
+            <String fx:value="buttonExit" />
+            <String fx:value="label_Text" />
+        </styleClass>
+    </Button>
+    <Label layoutX="307.0" layoutY="183.0" text="Label" />
+    <Label alignment="CENTER" layoutX="168.0" layoutY="160.0" prefHeight="47.0" prefWidth="310.0" styleClass="label_Text" stylesheets="@../css/Fonts.css" text="Please select the amount " />
+    <Label layoutX="220.0" layoutY="205.0" styleClass="label_Text" stylesheets="@../css/Fonts.css" text="you wish to reserve" />
+    <Label layoutX="241.0" layoutY="28.0" styleClass="label_Text_Header" stylesheets="@../css/Fonts.css" text="Reserve Cash" />
+
+
+
+</AnchorPane>
